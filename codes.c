@@ -186,7 +186,7 @@ int main()
 {
     add(5,3);
     return 0;
-}*/
+}
 #include <stdio.h>
 
 int main()
@@ -199,6 +199,23 @@ int main()
     printf("Value of a = %d\n", a);
     printf("Address of a = %p\n", p);
     printf("Value using pointer = %d", *p);
+
+    return 0;
+}*/
+#include <stdio.h>
+
+void changeValue(int *x)
+{
+    *x = 20;
+}
+
+int main()
+{
+    int a = 10;
+
+    changeValue(&a);
+
+    printf("Value of a = %d", a);
 
     return 0;
 }
