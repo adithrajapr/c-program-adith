@@ -232,7 +232,7 @@ int main()
     printf("Sum = %d", *p1 + *p2);
 
     return 0;
-}*/
+}
 #include <stdio.h>
 
 int main()
@@ -253,3 +253,20 @@ int main()
 
     return 0;
 }
+#include <stdio.h>
+
+int main()
+{
+    int arr[3] = {10, 20, 30};
+    int *p;
+    int i;
+
+    p = arr;
+
+    for(i = 0; i < 3; i++)
+    {
+        printf("%d\n", *(p + i));
+    }
+
+    return 0;
+}*/
