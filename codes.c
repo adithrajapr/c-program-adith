@@ -68,7 +68,7 @@ int main()
     printf("Division = %d\n", a / b);
 
     return 0;
-}*/
+}
 #include <stdio.h>
 
 int main()
@@ -80,6 +80,22 @@ int main()
 
     if(num > 0)
         printf("+ve num:");
+
+    return 0;
+}*/
+#include <stdio.h>
+
+int main()
+{
+    int num;
+
+    printf("num: ");
+    scanf("%d", &num);
+
+    if(num % 2 == 0)
+        printf("Even");
+    else
+        printf("Odd");
 
     return 0;
 }
