@@ -82,7 +82,7 @@ int main()
         printf("+ve num:");
 
     return 0;
-}*/
+}
 #include <stdio.h>
 
 int main()
@@ -96,6 +96,19 @@ int main()
         printf("Even");
     else
         printf("Odd");
+
+    return 0;
+}*/
+#include <stdio.h>
+
+int main()
+{
+    int i;
+
+    for(i = 1; i <= 5; i++)
+    {
+        printf("%d\n", i);
+    }
 
     return 0;
 }
