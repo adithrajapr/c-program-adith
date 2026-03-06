@@ -3,7 +3,7 @@
 int main() {
   printf("Hello World!");
   return 0;
-}*/
+}
 #include <stdio.h>
 
 int main() {
@@ -29,6 +29,19 @@ int main() {
         printf("Result = %.2f", a / b);
     else
         printf("Invalid operator");
+
+    return 0;
+}*/
+#include <stdio.h>
+
+int main()
+{
+    int a;
+
+    printf("Enter a number: ");
+    scanf("%d", &a);
+
+    printf("You entered: %d", a);
 
     return 0;
 }
