@@ -163,3 +163,15 @@ int main()
 
     return 0;
 }*/
+#include <stdio.h>
+
+void greet()
+{
+    printf("Hello Student");
+}
+
+int main()
+{
+    greet();
+    return 0;
+}
