@@ -55,7 +55,7 @@ int main()
     printf("Float: %f\n", b);
     printf("Char: %c\n", c);
     return 0;
-}*/
+}
 #include <stdio.h>
 
 int main()
@@ -66,6 +66,20 @@ int main()
     printf("Subtraction = %d\n", a - b);
     printf("Multiplication = %d\n", a * b);
     printf("Division = %d\n", a / b);
+
+    return 0;
+}*/
+#include <stdio.h>
+
+int main()
+{
+    int num;
+
+    printf("num: ");
+    scanf("%d", &num);
+
+    if(num > 0)
+        printf("+ve num:");
 
     return 0;
 }
