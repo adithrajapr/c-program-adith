@@ -174,7 +174,7 @@ int main()
 {
     greet();
     return 0;
-}*/
+}
 #include <stdio.h>
 
 void add(int a, int b)
@@ -185,5 +185,20 @@ void add(int a, int b)
 int main()
 {
     add(5,3);
+    return 0;
+}*/
+#include <stdio.h>
+
+int main()
+{
+    int a = 10;
+    int *p;
+
+    p = &a;
+
+    printf("Value of a = %d\n", a);
+    printf("Address of a = %p\n", p);
+    printf("Value using pointer = %d", *p);
+
     return 0;
 }
