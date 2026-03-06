@@ -1,9 +1,10 @@
 /*#include <stdio.h>
-
+//basic
 int main() {
   printf("Hello World!");
   return 0;
 }
+//arithmetic operations
 #include <stdio.h>
 
 int main() {
@@ -32,6 +33,7 @@ int main() {
 
     return 0;
 }
+    basic
 #include <stdio.h>
 
 int main()
@@ -45,6 +47,7 @@ int main()
 
     return 0;
 }
+
 #include<stdio.h>
 int main()
 {
@@ -69,6 +72,7 @@ int main()
 
     return 0;
 }
+    //if-else
 #include <stdio.h>
 
 int main()
@@ -98,7 +102,8 @@ int main()
         printf("Odd");
 
     return 0;
-}*/
+}
+    //for loop
 #include <stdio.h>
 
 int main()
@@ -108,6 +113,20 @@ int main()
     for(i = 1; i <= 5; i++)
     {
         printf("%d\n", i);
+    }
+
+    return 0;
+}*/
+#include <stdio.h>
+
+int main()
+{
+    int i = 1;
+
+    while(i <= 5)
+    {
+        printf("%d\n", i);
+        i++;
     }
 
     return 0;
