@@ -31,7 +31,7 @@ int main() {
         printf("Invalid operator");
 
     return 0;
-}*/
+}
 #include <stdio.h>
 
 int main()
@@ -43,5 +43,16 @@ int main()
 
     printf("You entered: %d", a);
 
+    return 0;
+}*/
+#include<stdio.h>
+int main()
+{
+    int a = 10;
+    float b = 5.5;
+    char c = 'A';
+    printf("Int : %d\n", a);
+    printf("Float: %f\n", b);
+    printf("Char: %c\n", c);
     return 0;
 }
