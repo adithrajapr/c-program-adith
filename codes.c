@@ -218,7 +218,7 @@ int main()
     printf("Value of a = %d", a);
 
     return 0;
-}*/
+}
 #include <stdio.h>
 
 int main()
@@ -232,4 +232,4 @@ int main()
     printf("Sum = %d", *p1 + *p2);
 
     return 0;
-}
+}*/
