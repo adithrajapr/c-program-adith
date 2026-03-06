@@ -201,7 +201,7 @@ int main()
     printf("Value using pointer = %d", *p);
 
     return 0;
-}*/
+}
 #include <stdio.h>
 
 void changeValue(int *x)
@@ -218,4 +218,4 @@ int main()
     printf("Value of a = %d", a);
 
     return 0;
-}
+}*/
